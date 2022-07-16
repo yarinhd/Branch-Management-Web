@@ -1,0 +1,48 @@
+[{
+        "username": "t_yarin_h",
+        "fullName": "Yarin Hadad",
+        "rank": "Captain",
+        "job": "Mechanical Engineer",
+        "birthday": "10/12/1995",
+        "releaseDate": "15/12/2024",
+        "gender": "M",
+        "manager": "t_avishay_h",
+        "manager_name": "Avishay Hayoun",
+        "avatar": "URL"
+    },
+    {
+        "username": "t_almog_h",
+        "fullName": "Almog Hazan",
+        "rank": "Captain",
+        "job": "Software Engineer",
+        "birthday": "10/12/1995",
+        "releaseDate": "15/12/2024",
+        "gender": "M",
+        "manager": "t_avishay_h",
+        "manager_name": "Avishay Hayoun",
+        "avatar": "URL"
+    },
+    {
+        "username": "t_tom_f",
+        "fullName": "Tom Furman",
+        "rank": "Lieutenant ",
+        "job": "Mechanical Engineer",
+        "birthday": "10/12/1995",
+        "releaseDate": "15/12/2024",
+        "gender": "M",
+        "manager": "t_avishay_h",
+        "manager_name": "Avishay Hayoun",
+        "avatar": "URL"
+    },
+    {
+        "username": "t_hila_d",
+        "fullName": "Hila De Leon",
+        "rank": "Private",
+        "job": "Mechanical Design",
+        "birthday": "10/12/1995",
+        "releaseDate": "15/12/2024",
+        "gender": "F",
+        "manager": "t_avishay_h",
+        "manager_name": "Avishay Hayoun",
+        "avatar": "URL"
+    }]

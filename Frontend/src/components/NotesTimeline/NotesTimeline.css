@@ -1,0 +1,114 @@
+body {
+    background: #ecf8ffb5;
+    /* font-family: "Montserrat", sans-serif; */
+    /* font-size: 16px; */
+    /* color: rgb(53, 53, 53); */
+}
+
+.title {
+    font-size: 15em;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+h3 {
+    padding-top: 0.25em;
+}
+
+.vertical-timeline-element-content {
+    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+        0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) ;
+    padding: 2em 3em !important;
+}
+
+.date {
+    color: rgb(0, 0, 0);
+}
+
+#description {
+    margin: 1.5em 0 2em 0;
+}
+
+.button {
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    color: white;
+}
+
+.workButton {
+    background-color: #71badc;
+}
+
+.workButton:hover {
+    background-color: #5e9bb8;
+}
+
+.schoolButton {
+    background-color: #f9c74f;
+}
+
+.schoolButton:hover {
+    background-color: #f3bc3c;
+}
+
+@media only screen and (max-width: 1700px) {
+    .vertical-timeline-element-date {
+        display: block !important;
+        float: none !important;
+        color: rgb(44, 44, 44);
+        margin-top: 1.5em;
+    }
+}
+
+.vertical-timeline::before {
+
+    background: black !important;
+}
+
+.vertical-timeline-element-icon{
+    box-shadow: 0 0 0 4px rgb(0, 0, 0), inset 0 2px 0 rgb(0 0 0 / 8%), 0 3px 0 4px rgb(0 0 0 / 5%) !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background: transparent !important;
+    border-radius: 60%;
+    width: 60px;
+    height: 70px !important;
+}
+
+.vertical-timeline-element-icon svg {
+
+    position: absolute !important;
+
+}
+
+@media only screen and (min-width: 1170px){
+    .vertical-timeline--two-columns .vertical-timeline-element-content-arrow {
+        top: 24px;
+        left: 100%;
+        -webkit-transform: rotate(180deg);
+        transform: rotate(0deg) !important;
+    }
+}
+
+.vertical-timeline-element-content {
+    position: relative;
+    margin-left: 60px;
+    background: linear-gradient( #B2FFDA, #88b9f8) !important;
+    border-radius: 1.25em !important;
+    padding: 1em;
+    -webkit-box-shadow: 0 3px 0 #ddd;
+    box-shadow: 0 3px 0 #ddd;
+}
+
+.vertical-timeline-element-content-arrow {
+
+    border-right: 22px solid #B2FFDA !important;
+}
+
+@media only screen and (min-width: 1170px) {
+    .vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date {
+    left: -124% !important;
+}
+}
